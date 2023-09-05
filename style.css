@@ -53,7 +53,7 @@ transition: 0.3s ease;
 }
 
 ul li a:hover{
-  background-color: purple;
+  color: purple;
 }
 
 
@@ -179,6 +179,11 @@ span{
 .btn a{
   color: white;
   text-decoration: none;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid rgb(88, 3, 88);
+  cursor: pointer;
 }
   
 .box i{
